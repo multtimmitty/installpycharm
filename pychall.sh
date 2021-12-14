@@ -11,7 +11,7 @@ if [[ -f "${HOME}/pycharm/pycharm-community-2021.3.tar.gz" ]]; then
     if [[ $? -eq 0 ]]; then
         echo -e "Descomprimido exitosamente..."; sleep 1
         echo -e "Creando Alias de Pycharm...."; sleep 1
-        `echo "alias pycharm='sh /home/linux/pycharm/pycharm-community-2021.2.3/bin/pycharm.sh > /dev/null 2>&1 &'" >> "$HOME/.bashrc"`
+        `echo "alias pycharm='sh /home/linux/pycharm/pycharm-community-2021.3/bin/pycharm.sh > /dev/null 2>&1 &'" >> "$HOME/.bashrc"`
         if [[ $? -eq 0 ]]; then
            echo -e "Recargando el Archivo (.bashrc)"
            `source $HOME/.bashrc`
