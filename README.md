@@ -1,4 +1,4 @@
-#INSTALADOR AUTOMATICO DE PYCHARM
+# INSTALADOR AUTOMATICO DE PYCHARM
 ---------------------------------
 
 **un simple script en bash que descarga e instala pycharm en sistemas derivados
